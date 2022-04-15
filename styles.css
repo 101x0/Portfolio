@@ -72,6 +72,7 @@ figure {
     transition: all ease .5s;
     transform-style: preserve-3d;
     transform: perspective(600px) rotateY(0deg);
+    border-radius: 5px;
 }
 
 figure .front,
