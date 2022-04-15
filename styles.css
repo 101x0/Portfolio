@@ -57,6 +57,7 @@ a {
     -webkit-box-shadow: -25px 25px 32px -2px rgba(0,0,0,0.74);
     -moz-box-shadow: -25px 25px 32px -2px rgba(0,0,0,0.74);
     box-shadow: -25px 25px 32px -2px rgba(0,0,0,0.74);
+    cursor: pointer;
 }
 
 .card_container:hover figure img {
@@ -71,6 +72,7 @@ figure {
     transition: all ease .5s;
     transform-style: preserve-3d;
     transform: perspective(600px) rotateY(0deg);
+    border-radius: 5px;
 }
 
 figure .front,
@@ -90,7 +92,7 @@ figure .back {
     color: black;
     transform: perspective(600px) rotateY(180deg);
     backface-visibility: hidden;
-    overflow: auto;    
+    overflow: auto;
 }
 
 figure .back h2 {
@@ -135,7 +137,7 @@ figure .back p {
 }
 
 .card_container:nth-child(2) figure .back p {
-    line-height: 20px;
+    line-height: 19px;
     font-size: 17px;
 }
 
