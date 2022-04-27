@@ -280,3 +280,39 @@ svg#clouds {
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4d2ef', endColorstr='#3b3346', GradientType=1 );
 }
+
+.card_container:nth-child(5) figure .back {
+  background: rgba(194, 210, 226, 1);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(194, 210, 226, 1) 0%,
+    rgba(36, 91, 142, 0.59) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(194, 210, 226, 1)),
+    color-stop(100%, rgba(36, 91, 142, 0.59))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(194, 210, 226, 1) 0%,
+    rgba(36, 91, 142, 0.59) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(194, 210, 226, 1) 0%,
+    rgba(36, 91, 142, 0.59) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(194, 210, 226, 1) 0%,
+    rgba(36, 91, 142, 0.59) 100%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(194, 210, 226, 1) 0%,
+    rgba(36, 91, 142, 0.59) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2d2e2', endColorstr='#245b8e', GradientType=1 );
+}
